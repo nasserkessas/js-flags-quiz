@@ -1,0 +1,104 @@
+html {
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+#card {
+    padding: 10px;
+    width: 90vw;
+    max-width: 1280px;
+    height: 70vh;
+    margin: 10vh auto;
+    min-height: 400px;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    height: 100%;
+}
+
+.section {
+    width: 50%;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.border {
+    position: absolute;
+    left: 50%;
+    width: 1px;
+    background-color: #aaa;
+    content: "";
+    min-height: 10px;
+    height: 90%;
+    z-index: 1;
+}
+
+.flag {
+    width: 50%;
+    position: absolute;
+    margin-top: 8%;
+    border: 1px solid #aaa;
+    margin-bottom: 20%;
+}
+
+#optionhalf {
+    flex-direction: column;
+    height: 100%;
+    align-items: baseline;
+}
+
+.label {
+    font-size: 2rem;
+}
+
+.options {
+    margin-right: auto;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50%;
+}
+
+.option {
+    margin-bottom: 10px;
+}
+
+#alert {
+    display: none;
+    padding: 40px 40px 60px 40px;
+    width: 20vw;
+    font-size: 2rem;
+}
+
+.infobar {
+    width: 100%;
+    height: 15%;
+    border-bottom: 1px solid #aaa;
+    font-size: 2rem;
+}
+
+.button {
+    float: right;
+}
+
+.score {
+    width: 7%;
+    height: 100%;
+    float: left;
+    margin: 1.5rem;
+    text-align: center;
+}
+
+.time {
+    width: 7%;
+    height: 100%;
+    float: right;
+    margin: 1.5rem;
+    text-align: center;
+}
