@@ -1,6 +1,6 @@
 let correct;
 let amtCorrect = 0;
-let seconds = 20;
+let seconds = 200;
 let amtIncorrect = 0;
 function main() {
   let options = [];
