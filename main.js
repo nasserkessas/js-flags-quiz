@@ -1,6 +1,6 @@
 let correct;
 let amtCorrect = 0;
-let seconds = 200;
+let seconds = 20;
 let amtIncorrect = 0;
 function main() {
   let options = [];
@@ -23,10 +23,7 @@ function main() {
 }
 
 function getRandomCountry() {
-  return {
-        "flag": "flags/au.svg",
-        "name": "Australia"
-    };
+  return countries[Math.round(Math.random() * (countries.length - 1))];
 }
 
 function get(id) {
