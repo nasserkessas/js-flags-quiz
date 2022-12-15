@@ -23,7 +23,10 @@ function main() {
 }
 
 function getRandomCountry() {
-  return countries[Math.round(Math.random() * (countries.length - 1))];
+  return {
+        "flag": "flags/au.svg",
+        "name": "Australia"
+    };
 }
 
 function get(id) {
